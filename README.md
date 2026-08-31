@@ -3,9 +3,9 @@
 ---
 
 ### Anggota Kelompok
-**- Jasmine Salsabilla | 140810250017**
-**- Azahwa Ezarmei Narita | 140810250044**
-**- Muhammad Razaqa Fasya Aditya | 140810250074**
+**- Jasmine Salsabilla | 140810250017**  
+**- Azahwa Ezarmei Narita | 140810250044**  
+**- Muhammad Razaqa Fasya Aditya | 140810250074**  
 
 ### Fungsi
 Secara umum, web ini memiliki dua fungsi utama:
