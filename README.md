@@ -20,8 +20,12 @@ Secara umum, web ini memiliki dua fungsi utama:
 Dengan menggabungkan kedua fungsi tersebut, web ini membentuk alur **produksi → penjualan → pengelolaan surplus → analisis data**, sehingga makanan yang masih layak konsumsi dapat dimanfaatkan secara optimal dan jumlah makanan yang terbuang dapat dikurangi.
 
 ### C. Tujuan
-
+   Sesuai dengan SGD yang kami bawakan, ide ini dapat menjadi wadah untuk mengantisipasi pembuangan limbah, terutama makanan dari restoran. Web ini berperan menjadi pihak ketiga untuk menjembatani konsumen dan penjual (dalam hal ini restoran atau umkm).
+   Web ini membantu bisnis makanan **mengurangi food waste** dengan cara mengelola dan menjual makanan surplus yang masih layak konsumsi dengan harga yang lebih terjangkau, sekaligus melakukan pendataan produksi dan penjualan untuk membantu bisnis memperkirakan kebutuhan produksi di hari-hari berikutnya.
 ### D. Target Pengguna
+   Adapun yang menjadi target dari produk ini, yaitu : 
+   1. Bisnis Makanan (Restoran, UMKM, Cafe, Bakery, Catering).
+   2. Konsumen yang menyukai potongan harga.
 
 ### E. Mockup
 
