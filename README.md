@@ -1,6 +1,8 @@
 # S.Kom Project Praktikum Sistem Database II
 **Jasmine Salsabilla | 140810250017**
+
 **Azahwa Ezarmei Narita | 140810250044**
+
 **Muhammad Razaqa Fasya Aditya | 140810250074**
 
 ---
