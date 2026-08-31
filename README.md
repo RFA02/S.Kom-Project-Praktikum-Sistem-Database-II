@@ -1,12 +1,12 @@
 # S.Kom Project Praktikum Sistem Database II
-### Anggota Kelompok
+### A. Anggota Kelompok
 **- Jasmine Salsabilla | 140810250017**  
 **- Azahwa Ezarmei Narita | 140810250044**  
 **- Muhammad Razaqa Fasya Aditya | 140810250074**  
 
 ---
 
-### Fungsi
+### B. Fungsi
 Secara umum, web ini memiliki dua fungsi utama:
 
 1. **Menyelamatkan makanan surplus (*Food Rescue*)**
@@ -19,11 +19,11 @@ Secara umum, web ini memiliki dua fungsi utama:
 
 Dengan menggabungkan kedua fungsi tersebut, web ini membentuk alur **produksi → penjualan → pengelolaan surplus → analisis data**, sehingga makanan yang masih layak konsumsi dapat dimanfaatkan secara optimal dan jumlah makanan yang terbuang dapat dikurangi.
 
-### Tujuan
+### C. Tujuan
 
-### Target Pengguna
+### D. Target Pengguna
 
-### Mockup
+### E. Mockup
 
-### Skema Database
+### F. Skema Database
 
