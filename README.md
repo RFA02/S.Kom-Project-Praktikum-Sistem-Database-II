@@ -30,4 +30,5 @@ Dengan menggabungkan kedua fungsi tersebut, web ini membentuk alur **produksi â†
 ### E. Mockup
 
 ### F. Skema Database
+<img width="1839" height="4729" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/4cc456fc-54d8-4b17-898e-a4e390fef1d1" />
 
