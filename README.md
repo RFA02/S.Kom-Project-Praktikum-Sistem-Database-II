@@ -1,4 +1,4 @@
-<img width="1536" height="1024" alt="analytics" src="https://github.com/user-attachments/assets/f829583a-5f1b-49c1-9321-7f5aad863ea4" /><img width="785" height="52" alt="image" src="https://github.com/user-attachments/assets/c4ddddd9-3b40-4466-bc4d-9481f7c329a3" /># S.Kom Project Praktikum Sistem Database II
+# S.Kom Project Praktikum Sistem Database II
 ### A. Anggota Kelompok
 **- Jasmine Salsabilla | 140810250017**  
 **- Azahwa Ezarmei Narita | 140810250044**  
@@ -28,6 +28,7 @@ Dengan menggabungkan kedua fungsi tersebut, web ini membentuk alur **produksi â†
    2. Konsumen yang menyukai potongan harga.
 
 ### E. Mockup
+<img width="1536" height="1024" alt="analytics" src="https://github.com/user-attachments/assets/f829583a-5f1b-49c1-9321-7f5aad863ea4" /><img width="785" height="52" alt="image" src="https://github.com/user-attachments/assets/c4ddddd9-3b40-4466-bc4d-9481f7c329a3" />
 #### 1. Consumer
    landing page
 <img width="1536" height="1024" alt="landing page CONSUMER" src="https://github.com/user-attachments/assets/84374d6b-f9f1-463c-bc83-2daa6d997376" />
