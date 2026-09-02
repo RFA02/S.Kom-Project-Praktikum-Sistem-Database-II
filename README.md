@@ -35,6 +35,7 @@ Dengan menggabungkan kedua fungsi tersebut, web ini membentuk alur **produksi â†
 
    ##### explore foods
 <img width="500" alt="explore foods CONSUMER" src="https://github.com/user-attachments/assets/c15f48bd-c9c4-489d-9d4b-e6e4c2dad603" />
+
    ##### food details
 <img width="500" alt="food details CONSUMER" src="https://github.com/user-attachments/assets/5bfa42bd-53e9-4868-bc6d-dc32b355deab" />
 
