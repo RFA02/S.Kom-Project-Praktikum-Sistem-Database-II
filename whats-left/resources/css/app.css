@@ -1,9 +1,52 @@
 @import 'tailwindcss';
 
+@source '../views/**/*.blade.php';
+@source '../js/**/*.js';
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
 
 @theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    --font-sans: 'Plus Jakarta Sans', 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
+
+    --color-brand-green: #1B5E3A;
+    --color-brand-green-hover: #14472C;
+    --color-brand-green-light: #EBF5F0;
+    --color-brand-green-badge: #DCF2E4;
+    
+    --color-brand-orange: #E67E22;
+    --color-brand-amber: #F59E0B;
+    --color-brand-amber-light: #FEF3C7;
+    
+    --color-brand-cream: #FAF6F0;
+    --color-brand-cream-light: #FDFBF7;
+    
+    --color-text-main: #1F2937;
+    --color-text-muted: #6B7280;
+}
+
+/* Custom utility classes matching What's Left visual identity */
+.bg-brand-pattern {
+    background-color: #FDFBF7;
+    background-image: radial-gradient(#1B5E3A 0.5px, transparent 0.5px), radial-gradient(#E67E22 0.5px, #FDFBF7 0.5px);
+    background-size: 24px 24px;
+    background-position: 0 0, 12px 12px;
+    background-opacity: 0.04;
+}
+
+/* Hide scrollbar for carousel but keep functionality */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Smooth transitions */
+.transition-card {
+    transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.transition-card:hover {
+    transform: translateY(-4px);
 }
