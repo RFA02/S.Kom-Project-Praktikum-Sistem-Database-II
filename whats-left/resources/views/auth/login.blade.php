@@ -33,8 +33,14 @@
         setTimeout(() => this.notification = '', 3000);
     },
     handleSubmit() {
-        this.notification = 'Simulasi masuk berhasil sebagai ' + (this.role === 'consumer' ? 'Konsumen' : 'Mitra Bisnis') + '!';
-        setTimeout(() => this.notification = '', 4000);
+        this.notification = 'Simulasi masuk berhasil sebagai ' + (this.role === 'consumer' ? 'Konsumen' : 'Mitra Bisnis') + '! Mengarahkan...';
+        setTimeout(() => {
+            if (this.role === 'business') {
+                window.location.href = '{{ url('/?view=dashboard') }}';
+            } else {
+                window.location.href = '{{ url('/') }}';
+            }
+        }, 1200);
     }
 }" class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
 

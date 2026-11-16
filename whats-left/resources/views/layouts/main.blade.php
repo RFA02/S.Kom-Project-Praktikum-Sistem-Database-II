@@ -282,7 +282,7 @@
                     <h3 class="text-sm font-bold text-stone-900 uppercase tracking-wider mb-4">Untuk Bisnis</h3>
                     <ul class="space-y-2.5 text-sm text-stone-600">
                         <li><a href="{{ Route::has('register') ? route('register') : url('/?view=register') }}" class="hover:text-[#1B5E3A] transition">Gabung Jadi Mitra Resto</a></li>
-                        <li><a href="{{ Route::has('login') ? route('login') : url('/?view=login') }}" class="hover:text-[#1B5E3A] transition">Merchant Portal</a></li>
+                        <li><a href="{{ url('/?view=dashboard') }}" class="hover:text-[#1B5E3A] transition font-semibold text-[#1B5E3A]">Merchant Portal (Dashboard)</a></li>
                         <li><a href="#cara-kerja" class="hover:text-[#1B5E3A] transition">Pencegahan Surplus</a></li>
                         <li><a href="#cara-kerja" class="hover:text-[#1B5E3A] transition">Rekomendasi Produksi</a></li>
                     </ul>
