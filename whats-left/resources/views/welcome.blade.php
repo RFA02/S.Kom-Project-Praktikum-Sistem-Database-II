@@ -12,6 +12,8 @@
     {!! view('business.surplus-listings')->render() !!}
 @elseif ($view === 'food-management' || $view === 'manajemen-makanan')
     {!! view('business.food-management')->render() !!}
+@elseif ($view === 'food-detail' || $view === 'food-details' || $view === 'detail-makanan' || $view === 'detail')
+    {!! view('consumer.food-details')->render() !!}
 @else
     {!! view('landing')->render() !!}
 @endif

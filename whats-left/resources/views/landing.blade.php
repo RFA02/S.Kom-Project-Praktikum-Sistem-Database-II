@@ -9,34 +9,58 @@
         {
             id: 1,
             title: 'Croissant Butter',
-            merchant: 'Berry Bakery',
+            merchant: 'Sunny Bakery',
+            merchantAvatar: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=120&q=80',
             merchantVerified: true,
+            rating: 4.8,
+            reviewsCount: 120,
+            distance: '1.2 km',
+            category: 'Bakery',
+            categorySpec: 'Roti & Kue',
             discount: 30,
             originalPrice: 15000,
             discountPrice: 10500,
-            pickupTime: '18:00 - 20:00',
-            distance: '0.8 km',
-            category: 'Roti & Kue',
-            stock: 4,
-            freshness: 'Dipanggang hari ini pukul 06.00 WIB',
-            image: 'https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80',
+            pickupTime: 'Hari ini, 18.00 - 20.00',
+            pickupLocation: 'Jl. Kemang Raya No. 12, Jakarta',
+            stock: 12,
+            unit: 'pcs',
+            freshness: 'Dibuat hari ini pukul 07.00',
+            image: 'https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800&q=80',
+            gallery: [
+                'https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800&q=80',
+                'https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=600&q=80',
+                'https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80',
+                'https://images.unsplash.com/photo-1586788680434-30d324b2d46f?auto=format&fit=crop&w=600&q=80'
+            ],
             isWishlist: false,
-            description: 'Croissant mentega klasik Prancis dengan lapisan renyah di luar dan lembut berongga di dalam. Masih sangat harum dan lezat!'
+            description: 'Croissant butter premium yang lembut di dalam dan renyah di luar. Pas dinikmati bersama kopi atau teh hangat.'
         },
         {
             id: 2,
             title: 'Chicken Teriyaki Bowl',
             merchant: 'RiceBowl Kitchen',
+            merchantAvatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80',
             merchantVerified: true,
+            rating: 4.9,
+            reviewsCount: 95,
+            distance: '1.2 km',
+            category: 'Makanan Berat',
+            categorySpec: 'Makanan Berat',
             discount: 35,
             originalPrice: 28000,
             discountPrice: 18000,
-            pickupTime: '17:00 - 19:30',
-            distance: '1.2 km',
-            category: 'Makanan Berat',
-            stock: 3,
+            pickupTime: 'Hari ini, 17.00 - 19.30',
+            pickupLocation: 'Jl. Surya Sumantri No. 45, Bandung',
+            stock: 6,
+            unit: 'porsi',
             freshness: 'Dimasak hangat hari ini pukul 11.30 WIB',
-            image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&q=80',
+            image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80',
+            gallery: [
+                'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80',
+                'https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=600&q=80',
+                'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600&q=80',
+                'https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=600&q=80'
+            ],
             isWishlist: false,
             description: 'Semangkuk nasi pulen dengan paha ayam panggang saus teriyaki gurih manis, taburan wijen, dan brokoli kukus segar.'
         },
@@ -44,16 +68,28 @@
             id: 3,
             title: 'Spaghetti Bolognese',
             merchant: 'Pasta La Vista',
+            merchantAvatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80',
             merchantVerified: true,
+            rating: 4.7,
+            reviewsCount: 84,
+            distance: '1.5 km',
+            category: 'Makanan Berat',
+            categorySpec: 'Makanan Berat',
             discount: 25,
             originalPrice: 27000,
             discountPrice: 20500,
-            pickupTime: '19:00 - 21:00',
-            distance: '1.5 km',
-            category: 'Makanan Berat',
+            pickupTime: 'Hari ini, 19.00 - 21.00',
+            pickupLocation: 'Jl. Riau No. 88, Bandung',
             stock: 5,
+            unit: 'porsi',
             freshness: 'Dibuat hari ini pukul 12.00 WIB',
-            image: 'https://images.unsplash.com/photo-1621996346565-e3d5d6281691?auto=format&fit=crop&w=600&q=80',
+            image: 'https://images.unsplash.com/photo-1621996346565-e3d5d6281691?auto=format&fit=crop&w=800&q=80',
+            gallery: [
+                'https://images.unsplash.com/photo-1621996346565-e3d5d6281691?auto=format&fit=crop&w=800&q=80',
+                'https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=600&q=80',
+                'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80',
+                'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=600&q=80'
+            ],
             isWishlist: false,
             description: 'Pasta al dente dipadukan dengan saus tomat daging cincang sapi gurih, rempah oregano, dan taburan keju parmesan.'
         },
@@ -61,16 +97,28 @@
             id: 4,
             title: 'Red Velvet Slice',
             merchant: 'Sweet Moments',
+            merchantAvatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=120&q=80',
             merchantVerified: true,
+            rating: 4.9,
+            reviewsCount: 140,
+            distance: '2.1 km',
+            category: 'Dessert',
+            categorySpec: 'Dessert & Kue',
             discount: 35,
             originalPrice: 18500,
             discountPrice: 12000,
-            pickupTime: '18:00 - 20:30',
-            distance: '2.1 km',
-            category: 'Dessert',
-            stock: 2,
+            pickupTime: 'Hari ini, 18.00 - 20.30',
+            pickupLocation: 'Jl. Dipati Ukur No. 22, Bandung',
+            stock: 4,
+            unit: 'slice',
             freshness: 'Kulkas pendingin toko suhu 4°C',
-            image: 'https://images.unsplash.com/photo-1586788680434-30d324b2d46f?auto=format&fit=crop&w=600&q=80',
+            image: 'https://images.unsplash.com/photo-1586788680434-30d324b2d46f?auto=format&fit=crop&w=800&q=80',
+            gallery: [
+                'https://images.unsplash.com/photo-1586788680434-30d324b2d46f?auto=format&fit=crop&w=800&q=80',
+                'https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80',
+                'https://images.unsplash.com/photo-1535141192574-5d4897c13136?auto=format&fit=crop&w=600&q=80',
+                'https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=600&q=80'
+            ],
             isWishlist: false,
             description: 'Kue red velvet lembut dengan lapisan cream cheese frosting premium yang manis asam segar sempurna untuk penutup hari.'
         },
@@ -78,16 +126,28 @@
             id: 5,
             title: 'Salmon Sushi Set',
             merchant: 'Sushi Sato',
+            merchantAvatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&q=80',
             merchantVerified: true,
+            rating: 4.8,
+            reviewsCount: 110,
+            distance: '2.8 km',
+            category: 'Makanan Berat',
+            categorySpec: 'Japanese Cuisine',
             discount: 40,
             originalPrice: 37000,
             discountPrice: 22000,
-            pickupTime: '19:30 - 21:30',
-            distance: '2.8 km',
-            category: 'Makanan Berat',
+            pickupTime: 'Hari ini, 19.30 - 21.30',
+            pickupLocation: 'Jl. Ir. H. Juanda No. 102, Bandung',
             stock: 3,
+            unit: 'set',
             freshness: 'Disiapkan chef hari ini pukul 14.00 WIB',
-            image: 'https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=600&q=80',
+            image: 'https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=800&q=80',
+            gallery: [
+                'https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=800&q=80',
+                'https://images.unsplash.com/photo-1611143669185-af224c5e3252?auto=format&fit=crop&w=600&q=80',
+                'https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=600&q=80',
+                'https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=600&q=80'
+            ],
             isWishlist: false,
             description: 'Paket kombinasi salmon nigiri segar, salmon maki roll, dan wasabi shoyu. Higienis dalam kemasan bento tertutup rapat.'
         }
@@ -98,9 +158,40 @@
     selectedLocation: 'Lokasi Saya',
     locations: ['Lokasi Saya', 'Jatinangor, Sumedang', 'Coblong, Bandung', 'Sukajadi, Bandung', 'Cibiru, Bandung Timur'],
 
-    // Modal state
+    // Modal & Interactive Detail State
     selectedFood: null,
+    activeImage: null,
     orderQuantity: 1,
+
+    // Live Countdown Timer (Default 02:45:30 -> 9930 detik)
+    timerSeconds: 9930,
+    timerInterval: null,
+
+    get modalTimerFormatted() {
+        const hours = Math.floor(this.timerSeconds / 3600);
+        const minutes = Math.floor((this.timerSeconds % 3600) / 60);
+        const seconds = this.timerSeconds % 60;
+        const pad = (n) => String(n).padStart(2, '0');
+        return `${pad(hours)} : ${pad(minutes)} : ${pad(seconds)}`;
+    },
+
+    startTimer() {
+        if (this.timerInterval) clearInterval(this.timerInterval);
+        this.timerInterval = setInterval(() => {
+            if (this.timerSeconds > 0) {
+                this.timerSeconds--;
+            } else {
+                clearInterval(this.timerInterval);
+            }
+        }, 1000);
+    },
+
+    stopTimer() {
+        if (this.timerInterval) {
+            clearInterval(this.timerInterval);
+            this.timerInterval = null;
+        }
+    },
 
     // Carousel scroll helper
     scrollCarousel(direction) {
@@ -115,27 +206,60 @@
     },
 
     formatRupiah(number) {
-        return 'Rp ' + number.toLocaleString('id-ID');
+        return 'Rp ' + (number || 0).toLocaleString('id-ID');
     },
 
     toggleWishlist(food) {
         food.isWishlist = !food.isWishlist;
         $dispatch('show-toast', {
             msg: food.isWishlist 
-                ? `${food.title} ditambahkan ke favorit!` 
+                ? `${food.title} ditambahkan ke favorit! ❤️` 
                 : `${food.title} dihapus dari favorit.`
         });
     },
 
     openDetail(food) {
         this.selectedFood = food;
+        this.activeImage = food.image;
         this.orderQuantity = 1;
+        this.timerSeconds = 9930; // 02:45:30
+        this.startTimer();
     },
 
     closeDetail() {
         this.selectedFood = null;
+        this.activeImage = null;
+        this.stopTimer();
+    },
+
+    submitReservation() {
+        if (!this.selectedFood) return;
+        const total = this.selectedFood.discountPrice * this.orderQuantity;
+        const bookingCode = 'WL-' + Math.floor(100000 + Math.random() * 900000);
+        
+        $dispatch('show-toast', {
+            msg: `🎉 Reservasi Berhasil! Kode: ${bookingCode} (${this.orderQuantity} porsi - ${this.formatRupiah(total)}). Bayar saat ambil!`
+        });
+
+        // Pengurangan stok simulasi frontend
+        this.selectedFood.stock = Math.max(0, this.selectedFood.stock - this.orderQuantity);
+        
+        setTimeout(() => {
+            this.closeDetail();
+        }, 1500);
+    },
+
+    init() {
+        // Auto open modal jika URL mengandung parameter ?view=food-detail atau ?detail=1
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.get('view') === 'food-detail' || urlParams.get('view') === 'detail' || urlParams.get('open') === 'croissant') {
+            this.$nextTick(() => {
+                this.openDetail(this.foods[0]);
+            });
+        }
     }
 }" 
+x-init="init()"
 x-on:show-toast.window="showToast($event.detail.msg)">
 
     <!-- ========================================== -->
@@ -737,143 +861,10 @@ x-on:show-toast.window="showToast($event.detail.msg)">
 
 
     <!-- ========================================== -->
-    <!-- 6. INTERACTIVE FOOD DETAIL & RESERVE MODAL -->
+    <!-- 6. INTERACTIVE FOOD DETAIL POP-UP MODAL    -->
+    <!-- Sesuai Visual Rujukan Consumer Mockup      -->
     <!-- ========================================== -->
-    <div x-cloak x-show="selectedFood !== null" 
-         class="fixed inset-0 z-50 overflow-y-auto" 
-         aria-labelledby="modal-title" 
-         role="dialog" 
-         aria-modal="true">
-        
-        <!-- Backdrop Blur Overlay -->
-        <div x-show="selectedFood !== null"
-             x-transition:enter="ease-out duration-300"
-             x-transition:enter-start="opacity-0"
-             x-transition:enter-end="opacity-100"
-             x-transition:leave="ease-in duration-200"
-             x-transition:leave-start="opacity-100"
-             x-transition:leave-end="opacity-0"
-             @click="closeDetail()"
-             class="fixed inset-0 bg-stone-900/60 backdrop-blur-sm transition-opacity"></div>
-
-        <!-- Modal Center Dialog -->
-        <div class="flex min-h-full items-center justify-center p-4 text-center sm:p-0">
-            <div x-show="selectedFood !== null"
-                 x-transition:enter="ease-out duration-300"
-                 x-transition:enter-start="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
-                 x-transition:enter-end="opacity-100 translate-y-0 sm:scale-100"
-                 x-transition:leave="ease-in duration-200"
-                 x-transition:leave-start="opacity-100 translate-y-0 sm:scale-100"
-                 x-transition:leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
-                 class="relative transform overflow-hidden rounded-3xl bg-white text-left shadow-2xl transition-all sm:my-8 sm:w-full sm:max-w-2xl border border-stone-200">
-                
-                <template x-if="selectedFood">
-                    <div>
-                        <!-- Close Button Top Right -->
-                        <button type="button" 
-                                @click="closeDetail()"
-                                class="absolute top-4 right-4 z-20 w-9 h-9 rounded-full bg-white/90 backdrop-blur-sm text-stone-500 hover:text-stone-900 shadow-md flex items-center justify-center transition">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"/>
-                            </svg>
-                        </button>
-
-                        <div class="grid grid-cols-1 sm:grid-cols-2">
-                            <!-- Left: Food Photo & Discount Badge -->
-                            <div class="relative h-64 sm:h-full bg-stone-100 overflow-hidden">
-                                <img :src="selectedFood.image" 
-                                     :alt="selectedFood.title" 
-                                     class="w-full h-full object-cover">
-                                <div class="absolute top-4 left-4 px-3 py-1.5 rounded-xl bg-[#F59E0B] text-white text-xs font-black shadow-lg">
-                                    <span x-text="selectedFood.discount + '% OFF'"></span>
-                                </div>
-                                <div class="absolute bottom-4 left-4 right-4 p-3 rounded-xl bg-black/60 backdrop-blur-md text-white text-xs">
-                                    <div class="font-bold flex items-center gap-1.5">
-                                        <span>⏰ Waktu Pengambilan:</span>
-                                    </div>
-                                    <div class="text-stone-200 font-medium mt-0.5" x-text="selectedFood.pickupTime + ' WIB'"></div>
-                                </div>
-                            </div>
-
-                            <!-- Right: Details, Prices, Quantity, Reserve CTA -->
-                            <div class="p-6 sm:p-7 flex flex-col justify-between space-y-5">
-                                <div>
-                                    <!-- Merchant Info -->
-                                    <div class="flex items-center gap-1.5 text-xs text-[#1B5E3A] font-bold">
-                                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                                            <path fill-rule="evenodd" d="M10 2a1 1 0 00-1 1v1a1 1 0 002 0V3a1 1 0 00-1-1zM4 4h3a3 3 0 006 0h3a2 2 0 012 2v9a2 2 0 01-2 2H4a2 2 0 01-2-2V6a2 2 0 012-2zm2.5 7a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm2.45 4a2.5 2.5 0 00-4.9 0h4.9zM12 9a1 1 0 100 2h3a1 1 0 100-2h-3zm0 4a1 1 0 100 2h3a1 1 0 100-2h-3z" clip-rule="evenodd"/>
-                                        </svg>
-                                        <span x-text="selectedFood.merchant"></span>
-                                        <span>•</span>
-                                        <span class="text-stone-500 font-medium" x-text="selectedFood.distance"></span>
-                                    </div>
-
-                                    <!-- Food Title -->
-                                    <h3 class="text-xl font-black text-stone-900 mt-1" x-text="selectedFood.title"></h3>
-
-                                    <!-- Freshness note -->
-                                    <div class="mt-2 inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-[#EBF5F0] text-[#1B5E3A] text-[11px] font-semibold">
-                                        <span>🍃</span>
-                                        <span x-text="selectedFood.freshness"></span>
-                                    </div>
-
-                                    <!-- Description -->
-                                    <p class="text-xs text-stone-600 mt-3 leading-relaxed" x-text="selectedFood.description"></p>
-
-                                    <!-- Price tag -->
-                                    <div class="mt-4 pt-4 border-t border-stone-100 flex items-baseline gap-2">
-                                        <span class="text-2xl font-black text-[#E67E22]" x-text="formatRupiah(selectedFood.discountPrice)"></span>
-                                        <span class="text-sm line-through text-stone-400 font-medium" x-text="formatRupiah(selectedFood.originalPrice)"></span>
-                                        <span class="text-xs font-bold text-[#1B5E3A] ml-auto" x-text="'Hemat ' + formatRupiah(selectedFood.originalPrice - selectedFood.discountPrice)"></span>
-                                    </div>
-                                </div>
-
-                                <!-- Quantity & Reserve CTA -->
-                                <div class="space-y-4 pt-3 border-t border-stone-100">
-                                    <div class="flex items-center justify-between">
-                                        <span class="text-xs font-bold text-stone-700">Jumlah Porsi:</span>
-                                        <div class="flex items-center gap-3">
-                                            <button type="button" 
-                                                    @click="if (orderQuantity > 1) orderQuantity--"
-                                                    class="w-8 h-8 rounded-lg bg-stone-100 text-stone-700 font-bold hover:bg-stone-200 transition">
-                                                -
-                                            </button>
-                                            <span class="text-sm font-extrabold text-stone-900 w-6 text-center" x-text="orderQuantity"></span>
-                                            <button type="button" 
-                                                    @click="if (orderQuantity < selectedFood.stock) orderQuantity++"
-                                                    class="w-8 h-8 rounded-lg bg-stone-100 text-stone-700 font-bold hover:bg-stone-200 transition">
-                                                +
-                                            </button>
-                                        </div>
-                                    </div>
-
-                                    <!-- Subtotal -->
-                                    <div class="flex items-center justify-between text-xs font-medium text-stone-600">
-                                        <span>Total Reservasi:</span>
-                                        <span class="font-extrabold text-base text-[#1B5E3A]" x-text="formatRupiah(selectedFood.discountPrice * orderQuantity)"></span>
-                                    </div>
-
-                                    <!-- Action Buttons -->
-                                    <div class="grid grid-cols-2 gap-3">
-                                        <a href="{{ Route::has('login') ? route('login') : url('/?view=login') }}" 
-                                           class="py-3 px-4 rounded-xl border border-[#1B5E3A] text-[#1B5E3A] text-center font-bold text-xs hover:bg-[#EBF5F0] transition">
-                                            Masuk Dahulu
-                                        </a>
-                                        <a href="{{ Route::has('register') ? route('register') : url('/?view=register') }}" 
-                                           class="py-3 px-4 rounded-xl bg-[#1B5E3A] hover:bg-[#14472C] text-white text-center font-bold text-xs shadow-md transition">
-                                            Daftar & Pesan
-                                        </a>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </template>
-
-            </div>
-        </div>
-    </div>
+    @include('components.consumer.food-detail-modal')
 
 </div>
 @endsection
