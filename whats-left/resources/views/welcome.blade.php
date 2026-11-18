@@ -14,6 +14,8 @@
     {!! view('business.food-management')->render() !!}
 @elseif ($view === 'food-detail' || $view === 'food-details' || $view === 'detail-makanan' || $view === 'detail')
     {!! view('consumer.food-details')->render() !!}
+@elseif ($view === 'my-reservations' || $view === 'reservations' || $view === 'reservasi' || $view === 'reservasi-saya')
+    {!! view('consumer.my-reservations')->render() !!}
 @else
     {!! view('landing')->render() !!}
 @endif

@@ -105,6 +105,9 @@
     </div>
 
     <!-- 1. HEADER / NAVBAR -->
+    @hasSection('header')
+        @yield('header')
+    @else
     <header class="sticky top-0 z-40 w-full bg-white/90 backdrop-blur-md border-b border-stone-200/70 transition-all duration-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
             
@@ -234,6 +237,7 @@
             </div>
         </div>
     </header>
+    @endif
 
     <!-- MAIN CONTENT -->
     <main class="flex-grow">
@@ -271,7 +275,7 @@
                     <h3 class="text-sm font-bold text-stone-900 uppercase tracking-wider mb-4">Konsumen</h3>
                     <ul class="space-y-2.5 text-sm text-stone-600">
                         <li><a href="#makanan-populer" class="hover:text-[#1B5E3A] transition">Jelajahi Makanan</a></li>
-                        <li><a href="#makanan-populer" class="hover:text-[#1B5E3A] transition">Promo & Diskon Hari Ini</a></li>
+                        <li><a href="{{ url('/?view=my-reservations') }}" class="hover:text-[#1B5E3A] transition font-semibold text-[#1B5E3A]">Reservasi Saya</a></li>
                         <li><a href="#cara-kerja" class="hover:text-[#1B5E3A] transition">Cara Reservasi</a></li>
                         <li><a href="{{ Route::has('register') ? route('register') : url('/?view=register') }}" class="hover:text-[#1B5E3A] transition">Daftar Akun Baru</a></li>
                     </ul>
