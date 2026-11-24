@@ -343,8 +343,7 @@ x-on:show-toast.window="showToast($event.detail.msg)">
                             </div>
 
                             <!-- CTA Search Button -->
-                            <a href="#makanan-populer" 
-                               @click="showToast('Menampilkan makanan surplus terdekat di ' + selectedLocation)"
+                            <a href="{{ url('/?view=explore') }}" 
                                class="bg-[#1B5E3A] hover:bg-[#14472C] text-white text-xs font-bold px-6 py-3 rounded-xl sm:rounded-full text-center shadow-md transition duration-200 shrink-0">
                                 Cari
                             </a>

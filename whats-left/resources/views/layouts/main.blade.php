@@ -69,6 +69,45 @@
             -ms-overflow-style: none;
             scrollbar-width: none;
         }
+        /* Custom Green Range Slider matching Explore Foods mockup */
+        .slider-green {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 100%;
+            height: 6px;
+            background: #DCF2E4;
+            border-radius: 9999px;
+            outline: none;
+        }
+        .slider-green::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: #1B5E3A;
+            cursor: pointer;
+            border: 2.5px solid #FFFFFF;
+            box-shadow: 0 2px 6px rgba(27, 94, 58, 0.35);
+            transition: transform 0.15s ease;
+        }
+        .slider-green::-webkit-slider-thumb:hover {
+            transform: scale(1.15);
+        }
+        .slider-green::-moz-range-thumb {
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: #1B5E3A;
+            cursor: pointer;
+            border: 2.5px solid #FFFFFF;
+            box-shadow: 0 2px 6px rgba(27, 94, 58, 0.35);
+        }
+        .slider-green::-moz-range-progress {
+            background-color: #1B5E3A;
+            border-radius: 9999px;
+            height: 6px;
+        }
     </style>
 </head>
 <body class="min-h-full flex flex-col antialiased selection:bg-[#1B5E3A] selection:text-white bg-[#FAF6F0]"
@@ -138,7 +177,7 @@
                     <span class="absolute bottom-0 left-0 right-0 h-0.5 bg-[#1B5E3A] rounded-full"></span>
                 </a>
                 
-                <a href="#makanan-populer" 
+                <a href="{{ url('/?view=explore') }}" 
                    @click="activeNav = 'jelajahi'"
                    class="py-2 text-sm font-semibold text-[#1F2937] hover:text-[#1B5E3A] transition-colors">
                     Jelajahi
@@ -226,7 +265,7 @@
              x-transition:leave-end="opacity-0 -translate-y-2"
              class="sm:hidden border-b border-stone-200 bg-white px-4 pt-3 pb-6 space-y-3">
             <a href="{{ url('/') }}" @click="mobileMenuOpen = false" class="block py-2 text-base font-bold text-[#1B5E3A]">Beranda</a>
-            <a href="#makanan-populer" @click="mobileMenuOpen = false" class="block py-2 text-base font-semibold text-stone-700">Jelajahi</a>
+            <a href="{{ url('/?view=explore') }}" @click="mobileMenuOpen = false" class="block py-2 text-base font-semibold text-stone-700">Jelajahi</a>
             <a href="#cara-kerja" @click="mobileMenuOpen = false" class="block py-2 text-base font-semibold text-stone-700">Cara Kerja</a>
             <a href="#untuk-bisnis" @click="mobileMenuOpen = false" class="block py-2 text-base font-semibold text-stone-700">Untuk Bisnis</a>
             <a href="#tentang-kami" @click="mobileMenuOpen = false" class="block py-2 text-base font-semibold text-stone-700">Tentang Kami</a>
