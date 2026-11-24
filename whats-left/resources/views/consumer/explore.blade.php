@@ -119,7 +119,7 @@
                      class="absolute right-0 mt-2 w-80 sm:w-96 rounded-2xl bg-white shadow-2xl border border-stone-200/80 p-3 z-50">
                     <div class="flex items-center justify-between pb-2 mb-2 border-b border-stone-100 px-1">
                         <span class="text-xs font-bold text-stone-900">Notifikasi Masuk (3 Baru)</span>
-                        <a href="{{ url('/?view=my-reservations') }}" class="text-[11px] font-semibold text-[#1B5E3A] hover:underline">Lihat Semua</a>
+                        <a href="{{ url('/?view=notifications') }}" class="text-[11px] font-semibold text-[#1B5E3A] hover:underline">Lihat Semua</a>
                     </div>
                     <div class="space-y-2 max-h-72 overflow-y-auto custom-scrollbar">
                         <div class="p-2.5 rounded-xl bg-[#EBF5F0]/60 border border-[#DCF2E4] flex items-start gap-2.5">
@@ -176,6 +176,10 @@
                     <a href="{{ url('/?view=my-reservations') }}" class="flex items-center gap-2 px-4 py-2 text-xs font-semibold text-stone-700 hover:bg-[#EBF5F0] hover:text-[#1B5E3A]">
                         <svg class="w-4 h-4 text-[#1B5E3A]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
                         Reservasi Saya
+                    </a>
+                    <a href="{{ url('/?view=notifications') }}" class="flex items-center gap-2 px-4 py-2 text-xs font-semibold text-stone-700 hover:bg-[#EBF5F0] hover:text-[#1B5E3A]">
+                        <svg class="w-4 h-4 text-[#1B5E3A]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"/></svg>
+                        Notifikasi
                     </a>
                     <a href="#" @click.prevent="showToast('Fitur Favorit sedang aktif!')" class="flex items-center gap-2 px-4 py-2 text-xs font-semibold text-stone-700 hover:bg-[#EBF5F0] hover:text-[#1B5E3A]">
                         <svg class="w-4 h-4 text-red-500" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>

@@ -20,6 +20,8 @@
     {!! view('consumer.reservation')->render() !!}
 @elseif ($view === 'my-reservations' || $view === 'reservations' || $view === 'reservasi-saya' || $view === 'riwayat-reservasi')
     {!! view('consumer.my-reservations')->render() !!}
+@elseif ($view === 'notifications' || $view === 'notifikasi')
+    {!! view('consumer.notifications')->render() !!}
 @else
     {!! view('landing')->render() !!}
 @endif

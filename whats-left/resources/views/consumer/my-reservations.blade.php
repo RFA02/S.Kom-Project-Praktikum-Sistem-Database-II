@@ -116,7 +116,7 @@
                      class="absolute right-0 mt-2 w-80 sm:w-88 rounded-2xl bg-white shadow-2xl border border-stone-100 py-3 z-50">
                     <div class="px-4 pb-2 border-b border-stone-100 flex items-center justify-between">
                         <span class="text-sm font-bold text-stone-900">Notifikasi Reservasi</span>
-                        <span class="text-[11px] font-semibold text-[#1B5E3A] cursor-pointer hover:underline" @click="showToast('Semua notifikasi ditandai dibaca')">Tandai Dibaca</span>
+                        <a href="{{ url('/?view=notifications') }}" class="text-[11px] font-semibold text-[#1B5E3A] hover:underline">Buka Notifikasi</a>
                     </div>
                     <div class="divide-y divide-stone-100 max-h-72 overflow-y-auto custom-scrollbar">
                         <div class="px-4 py-3 hover:bg-stone-50 transition cursor-pointer flex gap-3 items-start">
@@ -180,6 +180,9 @@
                     </div>
                     <a href="{{ url('/?view=my-reservations') }}" class="block px-4 py-2 text-xs font-semibold text-[#1B5E3A] bg-[#EBF5F0]/60 flex items-center gap-2">
                         <span>📋</span> Reservasi Saya (Aktif)
+                    </a>
+                    <a href="{{ url('/?view=notifications') }}" class="block px-4 py-2 text-xs font-medium text-stone-700 hover:bg-stone-50 flex items-center gap-2">
+                        <span>🔔</span> Notifikasi
                     </a>
                     <a href="{{ url('/') }}" class="block px-4 py-2 text-xs font-medium text-stone-700 hover:bg-stone-50 flex items-center gap-2">
                         <span>🔍</span> Jelajahi Makanan
