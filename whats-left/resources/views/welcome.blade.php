@@ -16,7 +16,9 @@
     {!! view('consumer.explore')->render() !!}
 @elseif ($view === 'food-detail' || $view === 'food-details' || $view === 'detail-makanan' || $view === 'detail')
     {!! view('consumer.food-details')->render() !!}
-@elseif ($view === 'my-reservations' || $view === 'reservations' || $view === 'reservasi' || $view === 'reservasi-saya')
+@elseif ($view === 'reservation' || $view === 'reservasi' || $view === 'order' || $view === 'checkout' || $view === 'pesan')
+    {!! view('consumer.reservation')->render() !!}
+@elseif ($view === 'my-reservations' || $view === 'reservations' || $view === 'reservasi-saya' || $view === 'riwayat-reservasi')
     {!! view('consumer.my-reservations')->render() !!}
 @else
     {!! view('landing')->render() !!}

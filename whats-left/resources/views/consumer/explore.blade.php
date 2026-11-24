@@ -863,11 +863,43 @@
     mobileFilterOpen: false,
     mapModalOpen: false,
 
-    // Modal Detail & Reservasi (Komponen food-detail-modal)
+    // Modal Detail & Reservasi (Komponen food-detail-modal & reservation-modal)
     selectedFood: null,
     activeImage: null,
     orderQuantity: 1,
+
+    // State Alur Reservasi Konsumen
     reservationModalOpen: false,
+    reservationStep: 1,
+    resItem: {},
+    resQuantity: 1,
+    selectedSlot: 1,
+    selectedPayment: 'gopay',
+    reservationNotes: '',
+
+    openReservation(food) {
+        this.resItem = food || this.selectedFood || this.foods[0];
+        this.resQuantity = this.orderQuantity || 1;
+        this.reservationStep = 1;
+        this.selectedSlot = 1;
+        this.selectedPayment = 'gopay';
+        this.closeDetail();
+        this.reservationModalOpen = true;
+    },
+
+    closeReservationModal() {
+        this.reservationModalOpen = false;
+        this.reservationStep = 1;
+    },
+
+    finishReservation() {
+        this.reservationStep = 4;
+        this.showToast('Reservasi berhasil dikonfirmasi! Kode booking telah diterbitkan.', 'success');
+    },
+
+    submitReservation() {
+        this.openReservation(this.selectedFood);
+    },
 
     // Collapse Sidebar Accordions
     collapseCategory: false,
@@ -1954,6 +1986,11 @@ class="bg-[#FAF6F0] min-h-screen pb-24">
     <!-- 9. MODAL POP-UP DETAIL MAKANAN (MEMAKAI KOMPONEN RESMI YANG SUDAH ADA)     -->
     <!-- ========================================================================= -->
     @include('components.consumer.food-detail-modal')
+
+    <!-- ========================================================================= -->
+    <!-- 10. MODAL POP-UP RESERVASI MAKANAN MULTI-STEP SESUAI SCREENSHOT MOCKUP    -->
+    <!-- ========================================================================= -->
+    @include('components.consumer.reservation-modal')
 
 </div>
 @endsection

@@ -100,6 +100,39 @@
     activeImage: null,
     orderQuantity: 1,
 
+    // State Alur Reservasi Konsumen (reservation-modal)
+    reservationModalOpen: false,
+    reservationStep: 1,
+    resItem: {},
+    resQuantity: 1,
+    selectedSlot: 1,
+    selectedPayment: 'gopay',
+    reservationNotes: '',
+
+    openReservation(food) {
+        this.resItem = food || this.selectedFood || this.foods[0];
+        this.resQuantity = this.orderQuantity || 1;
+        this.reservationStep = 1;
+        this.selectedSlot = 1;
+        this.selectedPayment = 'gopay';
+        this.closeDetail();
+        this.reservationModalOpen = true;
+    },
+
+    closeReservationModal() {
+        this.reservationModalOpen = false;
+        this.reservationStep = 1;
+    },
+
+    finishReservation() {
+        this.reservationStep = 4;
+        this.showToast('Reservasi berhasil dikonfirmasi! Kode booking telah diterbitkan.', 'success');
+    },
+
+    submitReservation() {
+        this.openReservation(this.selectedFood);
+    },
+
     // Live Countdown Timer (02:45:30 -> 9930 detik)
     timerSeconds: 9930,
     timerInterval: null,
@@ -264,6 +297,9 @@ x-on:show-toast.window="showToast($event.detail.msg)">
 
     <!-- MODAL DETAIL MAKANAN POP-UP -->
     @include('components.consumer.food-detail-modal')
+
+    <!-- MODAL RESERVASI MAKANAN POP-UP (MULTI-STEP) -->
+    @include('components.consumer.reservation-modal')
 
 </div>
 @endsection
