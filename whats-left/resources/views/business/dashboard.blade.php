@@ -275,17 +275,13 @@
                 </a>
 
                 <!-- 3. Produksi Harian -->
-                <button type="button"
-                        @click="activeNav = 'produksi'; mobileSidebarOpen = false; $dispatch('show-toast', { msg: 'Menu Produksi Harian dipilih' })"
-                        :class="activeNav === 'produksi' 
-                            ? 'bg-[#EBF5F0] text-[#1B5E3A] font-bold' 
-                            : 'text-stone-600 hover:bg-stone-50 hover:text-stone-900 font-medium'"
-                        class="w-full flex items-center gap-3 px-3.5 py-2.5 rounded-xl text-sm transition-all duration-150 text-left">
+                <a href="{{ url('/?view=produksi-harian') }}"
+                   class="w-full flex items-center gap-3 px-3.5 py-2.5 rounded-xl text-sm transition-all duration-150 text-left text-stone-600 hover:bg-stone-50 hover:text-stone-900 font-medium">
                     <svg class="w-5 h-5 shrink-0 text-stone-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"/>
                     </svg>
                     <span>Produksi Harian</span>
-                </button>
+                </a>
 
                 <!-- 4. Reservasi (with Badge 5) -->
                 <button type="button"

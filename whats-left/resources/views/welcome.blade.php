@@ -12,6 +12,8 @@
     {!! view('business.surplus-listings')->render() !!}
 @elseif ($view === 'food-management' || $view === 'manajemen-makanan')
     {!! view('business.food-management')->render() !!}
+@elseif ($view === 'production-records' || $view === 'produksi-harian' || $view === 'catatan-produksi' || $view === 'produksi')
+    {!! view('business.production-records')->render() !!}
 @elseif ($view === 'explore' || $view === 'jelajahi' || $view === 'explore-foods' || $view === 'makanan')
     {!! view('consumer.explore')->render() !!}
 @elseif ($view === 'food-detail' || $view === 'food-details' || $view === 'detail-makanan' || $view === 'detail')
