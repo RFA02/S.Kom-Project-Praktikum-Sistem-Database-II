@@ -573,9 +573,8 @@
                 </a>
 
                 <!-- 4. Reservasi (Badge Angka 5) -->
-                <button type="button"
-                        @click="$dispatch('show-toast', { msg: 'Menu Reservasi (5 reservasi aktif menunggu diambil)' })"
-                        class="w-full flex items-center justify-between px-3.5 py-2.5 rounded-xl text-sm transition-all duration-150 text-left text-stone-600 hover:bg-stone-50 hover:text-stone-900 font-medium">
+                <a href="{{ url('/?view=reservations-management') }}"
+                   class="w-full flex items-center justify-between px-3.5 py-2.5 rounded-xl text-sm transition-all duration-150 text-left text-stone-600 hover:bg-stone-50 hover:text-stone-900 font-medium">
                     <div class="flex items-center gap-3 min-w-0">
                         <svg class="w-5 h-5 shrink-0 text-stone-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
@@ -586,7 +585,7 @@
                           class="w-5 h-5 rounded-full bg-[#EA580C] text-white text-[11px] font-bold flex items-center justify-center shrink-0 shadow-xs">
                         5
                     </span>
-                </button>
+                </a>
 
                 <!-- 5. Pelanggan -->
                 <button type="button"
