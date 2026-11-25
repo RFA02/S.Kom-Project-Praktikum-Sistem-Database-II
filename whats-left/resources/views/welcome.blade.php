@@ -16,6 +16,8 @@
     {!! view('business.production-records')->render() !!}
 @elseif ($view === 'reservations-management' || $view === 'manajemen-reservasi' || $view === 'business-reservations' || $view === 'reservasi-bisnis')
     {!! view('business.reservations-management')->render() !!}
+@elseif ($view === 'analytics' || $view === 'analitik' || $view === 'business-analytics')
+    {!! view('business.analytics')->render() !!}
 @elseif ($view === 'explore' || $view === 'jelajahi' || $view === 'explore-foods' || $view === 'makanan')
     {!! view('consumer.explore')->render() !!}
 @elseif ($view === 'food-detail' || $view === 'food-details' || $view === 'detail-makanan' || $view === 'detail')
