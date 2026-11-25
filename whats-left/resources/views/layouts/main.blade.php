@@ -139,7 +139,8 @@
          x-transition:leave-start="opacity-100 transform translate-y-0 sm:scale-100"
          x-transition:leave-end="opacity-0 transform translate-y-4 sm:translate-y-0 sm:scale-95"
          class="fixed bottom-6 right-6 z-50 flex items-center gap-3 px-5 py-3.5 rounded-2xl bg-[#1F2937] text-white shadow-2xl border border-stone-700/50">
-        <div class="w-2.5 h-2.5 rounded-full bg-[#10B981] animate-pulse"></div>
+        <div class="w-2.5 h-2.5 rounded-full"
+             :class="toast.type === 'error' ? 'bg-rose-500' : 'bg-[#10B981] animate-pulse'"></div>
         <span class="text-sm font-medium" x-text="toast.message"></span>
     </div>
 
@@ -313,9 +314,10 @@
                 <div>
                     <h3 class="text-sm font-bold text-stone-900 uppercase tracking-wider mb-4">Konsumen</h3>
                     <ul class="space-y-2.5 text-sm text-stone-600">
-                        <li><a href="#makanan-populer" class="hover:text-[#1B5E3A] transition">Jelajahi Makanan</a></li>
+                        <li><a href="{{ url('/?view=explore') }}" class="hover:text-[#1B5E3A] transition">Jelajahi Makanan</a></li>
                         <li><a href="{{ url('/?view=my-reservations') }}" class="hover:text-[#1B5E3A] transition font-semibold text-[#1B5E3A]">Reservasi Saya</a></li>
-                        <li><a href="#cara-kerja" class="hover:text-[#1B5E3A] transition">Cara Reservasi</a></li>
+                        <li><a href="{{ url('/?view=profile') }}" class="hover:text-[#1B5E3A] transition">Profil Saya</a></li>
+                        <li><a href="{{ url('/?view=notifications') }}" class="hover:text-[#1B5E3A] transition">Notifikasi</a></li>
                         <li><a href="{{ Route::has('register') ? route('register') : url('/?view=register') }}" class="hover:text-[#1B5E3A] transition">Daftar Akun Baru</a></li>
                     </ul>
                 </div>

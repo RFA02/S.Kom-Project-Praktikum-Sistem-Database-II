@@ -26,6 +26,8 @@
     {!! view('consumer.my-reservations')->render() !!}
 @elseif ($view === 'notifications' || $view === 'notifikasi')
     {!! view('consumer.notifications')->render() !!}
+@elseif ($view === 'profile' || $view === 'profil' || $view === 'profil-saya' || $view === 'consumer-profile')
+    {!! view('consumer.profile')->render() !!}
 @else
     {!! view('landing')->render() !!}
 @endif

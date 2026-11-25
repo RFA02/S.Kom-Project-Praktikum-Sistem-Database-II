@@ -173,6 +173,10 @@
                         <p class="text-xs font-bold text-stone-900">Jasmine Salsabilla</p>
                         <p class="text-[11px] text-stone-500">jasmine@foodrescue.id</p>
                     </div>
+                    <a href="{{ url('/?view=profile') }}" class="flex items-center gap-2 px-4 py-2 text-xs font-semibold text-stone-700 hover:bg-[#EBF5F0] hover:text-[#1B5E3A]">
+                        <svg class="w-4 h-4 text-[#1B5E3A]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
+                        Profil Saya
+                    </a>
                     <a href="{{ url('/?view=my-reservations') }}" class="flex items-center gap-2 px-4 py-2 text-xs font-semibold text-stone-700 hover:bg-[#EBF5F0] hover:text-[#1B5E3A]">
                         <svg class="w-4 h-4 text-[#1B5E3A]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
                         Reservasi Saya

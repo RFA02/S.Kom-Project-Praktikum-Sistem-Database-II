@@ -178,6 +178,9 @@
                             Food Saver Hero 🌱
                         </span>
                     </div>
+                    <a href="{{ url('/?view=profile') }}" class="block px-4 py-2 text-xs font-medium text-stone-700 hover:bg-stone-50 flex items-center gap-2">
+                        <span>👤</span> Profil Saya
+                    </a>
                     <a href="{{ url('/?view=my-reservations') }}" class="block px-4 py-2 text-xs font-semibold text-[#1B5E3A] bg-[#EBF5F0]/60 flex items-center gap-2">
                         <span>📋</span> Reservasi Saya (Aktif)
                     </a>
